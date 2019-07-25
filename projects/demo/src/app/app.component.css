@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+}
+
+.wrapper > div {
+  padding: 20px;
+}
