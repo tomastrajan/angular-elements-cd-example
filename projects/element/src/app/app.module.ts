@@ -1,3 +1,4 @@
+import 'zone.js/dist/zone-patch-rxjs';
 import { NgModule, DoBootstrap, Injector } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
