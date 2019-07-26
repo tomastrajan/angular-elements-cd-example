@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   username = 'tomastrajan';
+
+  constructor() {
+    console.log((window as any).Zone.current);
+  }
+
 }
